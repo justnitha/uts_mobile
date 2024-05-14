@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lingkaran">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="50px"
+        android:paddingVertical="450px">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luas Lingkaran"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masukan jari-jari" />
+
+        <EditText
+            android:id="@+id/edtJariJari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnHitungLingkaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hitung" />
+
+        <TextView
+            android:id="@+id/txtHasilLingkaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil:" />
+
+        <Button
+            android:id="@+id/btnBackLingkaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
